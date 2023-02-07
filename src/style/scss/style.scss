@@ -1,0 +1,71 @@
+//--------------------------------Variables--------------------------------
+
+$background-color: #161516;
+$font-family: "Stolzl";
+$container-width: 1830px;
+$selection: #33b7bc;
+$selection-color: #000;
+
+//--------------------------------Mixin--------------------------------
+@mixin name {
+}
+//--------------------------------Keyframes--------------------------------
+@keyframes name {
+}
+//--------------------------------Default--------------------------------
+html {
+    line-height: 1.15;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: $font-family;
+    background-color: $background-color;
+}
+
+.container {
+    max-width: $container-width;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+::selection {
+    background-color: $selection;
+    color: $selection-color;
+}
+//--------------------------------Style--------------------------------
+
+//--------------------------------Media--------------------------------
+@media only screen and (max-width: 1660px) {
+    /* */
+}
+@media only screen and (max-width: 1440px) {
+    /* */
+}
+@media only screen and (max-width: 1280px) {
+    /* */
+}
+@media only screen and (max-width: 1024px) {
+    /* */
+}
+@media only screen and (max-width: 991px) {
+    /* */
+}
+@media only screen and (max-width: 768px) {
+    /* */
+}
+@media only screen and (max-width: 480px) {
+    /* */
+}
+@media only screen and (max-width: 320px) {
+    /* */
+}
